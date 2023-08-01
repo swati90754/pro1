@@ -1,0 +1,19 @@
+
+<html>
+    <head>
+         <h1>Student Form <h1/>
+
+    </head>
+    <body>
+        <h2> Hello Students <h2/>
+        <form method ='post'>
+         {% csrf_token %}
+         {{ form.as_p }}
+         <input type='submit'>
+         <input type ='Reset'>
+            
+            
+        <form/>
+        
+    </body>
+</html>
